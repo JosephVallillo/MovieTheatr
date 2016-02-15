@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D865D4B41C63785200DEFD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4B31C63785200DEFD2B /* AppDelegate.swift */; };
-		D865D4B61C63785200DEFD2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4B51C63785200DEFD2B /* ViewController.swift */; };
 		D865D4B91C63785200DEFD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D865D4B71C63785200DEFD2B /* Main.storyboard */; };
 		D865D4BB1C63785200DEFD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D865D4BA1C63785200DEFD2B /* Assets.xcassets */; };
 		D865D4BE1C63785200DEFD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D865D4BC1C63785200DEFD2B /* LaunchScreen.storyboard */; };
 		D865D4C91C63785200DEFD2B /* MovieTheatrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4C81C63785200DEFD2B /* MovieTheatrTests.swift */; };
 		D865D4D41C63785200DEFD2B /* MovieTheatrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4D31C63785200DEFD2B /* MovieTheatrUITests.swift */; };
+		D865D4E71C637CCA00DEFD2B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4E61C637CCA00DEFD2B /* Config.swift */; };
+		D865D4E91C66721000DEFD2B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4E81C66721000DEFD2B /* Movie.swift */; };
+		D865D4EB1C696C4900DEFD2B /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4EA1C696C4900DEFD2B /* BorderedButton.swift */; };
+		D865D4ED1C696CAC00DEFD2B /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4EC1C696CAC00DEFD2B /* FavoritesTableViewController.swift */; };
+		D865D4EF1C696D4400DEFD2B /* GenreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4EE1C696D4400DEFD2B /* GenreTableViewController.swift */; };
+		D865D4F11C696DF000DEFD2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4F01C696DF000DEFD2B /* LoginViewController.swift */; };
+		D865D4F31C696E6100DEFD2B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4F21C696E6100DEFD2B /* MovieDetailViewController.swift */; };
+		D865D4F51C69749100DEFD2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4F41C69749100DEFD2B /* Constants.swift */; };
+		D865D4F71C69787B00DEFD2B /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865D4F61C69787B00DEFD2B /* GCDBlackBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		D865D4B01C63785200DEFD2B /* MovieTheatr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTheatr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D865D4B31C63785200DEFD2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D865D4B51C63785200DEFD2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D865D4B81C63785200DEFD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D865D4BA1C63785200DEFD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D865D4BD1C63785200DEFD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		D865D4CF1C63785200DEFD2B /* MovieTheatrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTheatrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D865D4D31C63785200DEFD2B /* MovieTheatrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTheatrUITests.swift; sourceTree = "<group>"; };
 		D865D4D51C63785200DEFD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D865D4E61C637CCA00DEFD2B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D865D4E81C66721000DEFD2B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D865D4EA1C696C4900DEFD2B /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		D865D4EC1C696CAC00DEFD2B /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		D865D4EE1C696D4400DEFD2B /* GenreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreTableViewController.swift; sourceTree = "<group>"; };
+		D865D4F01C696DF000DEFD2B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D865D4F21C696E6100DEFD2B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		D865D4F41C69749100DEFD2B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D865D4F61C69787B00DEFD2B /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +113,11 @@
 		D865D4B21C63785200DEFD2B /* MovieTheatr */ = {
 			isa = PBXGroup;
 			children = (
-				D865D4B31C63785200DEFD2B /* AppDelegate.swift */,
-				D865D4B51C63785200DEFD2B /* ViewController.swift */,
-				D865D4B71C63785200DEFD2B /* Main.storyboard */,
-				D865D4BA1C63785200DEFD2B /* Assets.xcassets */,
-				D865D4BC1C63785200DEFD2B /* LaunchScreen.storyboard */,
-				D865D4BF1C63785200DEFD2B /* Info.plist */,
+				D865D4E41C6379B300DEFD2B /* Model */,
+				D865D4E31C6379B100DEFD2B /* View */,
+				D865D4E21C6379AF00DEFD2B /* Controller */,
+				D865D4E51C6379DD00DEFD2B /* Supporting Files */,
+				D865D4E11C6379AA00DEFD2B /* Assets */,
 			);
 			path = MovieTheatr;
 			sourceTree = "<group>";
@@ -123,6 +138,55 @@
 				D865D4D51C63785200DEFD2B /* Info.plist */,
 			);
 			path = MovieTheatrUITests;
+			sourceTree = "<group>";
+		};
+		D865D4E11C6379AA00DEFD2B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D865D4BA1C63785200DEFD2B /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D865D4E21C6379AF00DEFD2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D865D4EC1C696CAC00DEFD2B /* FavoritesTableViewController.swift */,
+				D865D4EE1C696D4400DEFD2B /* GenreTableViewController.swift */,
+				D865D4F01C696DF000DEFD2B /* LoginViewController.swift */,
+				D865D4F21C696E6100DEFD2B /* MovieDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D865D4E31C6379B100DEFD2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D865D4EA1C696C4900DEFD2B /* BorderedButton.swift */,
+				D865D4B71C63785200DEFD2B /* Main.storyboard */,
+				D865D4BC1C63785200DEFD2B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D865D4E41C6379B300DEFD2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D865D4E61C637CCA00DEFD2B /* Config.swift */,
+				D865D4E81C66721000DEFD2B /* Movie.swift */,
+				D865D4F41C69749100DEFD2B /* Constants.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D865D4E51C6379DD00DEFD2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D865D4B31C63785200DEFD2B /* AppDelegate.swift */,
+				D865D4F61C69787B00DEFD2B /* GCDBlackBox.swift */,
+				D865D4BF1C63785200DEFD2B /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D865D4B61C63785200DEFD2B /* ViewController.swift in Sources */,
+				D865D4F11C696DF000DEFD2B /* LoginViewController.swift in Sources */,
 				D865D4B41C63785200DEFD2B /* AppDelegate.swift in Sources */,
+				D865D4E91C66721000DEFD2B /* Movie.swift in Sources */,
+				D865D4EB1C696C4900DEFD2B /* BorderedButton.swift in Sources */,
+				D865D4F71C69787B00DEFD2B /* GCDBlackBox.swift in Sources */,
+				D865D4F31C696E6100DEFD2B /* MovieDetailViewController.swift in Sources */,
+				D865D4EF1C696D4400DEFD2B /* GenreTableViewController.swift in Sources */,
+				D865D4ED1C696CAC00DEFD2B /* FavoritesTableViewController.swift in Sources */,
+				D865D4E71C637CCA00DEFD2B /* Config.swift in Sources */,
+				D865D4F51C69749100DEFD2B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +559,7 @@
 				D865D4DA1C63785200DEFD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D865D4DB1C63785200DEFD2B /* Build configuration list for PBXNativeTarget "MovieTheatrTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +568,7 @@
 				D865D4DD1C63785200DEFD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D865D4DE1C63785200DEFD2B /* Build configuration list for PBXNativeTarget "MovieTheatrUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +577,7 @@
 				D865D4E01C63785200DEFD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
